@@ -144,7 +144,7 @@ Begin VB.Form frmV_FacPed
                Strikethrough   =   0   'False
             EndProperty
             CustomFormat    =   "yyyy-MM-dd HH:mm"
-            Format          =   66387971
+            Format          =   66453507
             CurrentDate     =   37463
          End
          Begin MSComCtl2.DTPicker dtpEjecutar 
@@ -175,7 +175,7 @@ Begin VB.Form frmV_FacPed
                Strikethrough   =   0   'False
             EndProperty
             CustomFormat    =   "yyyy-MM-dd HH:mm"
-            Format          =   66387971
+            Format          =   66453507
             CurrentDate     =   37463
          End
          Begin MSComctlLib.ProgressBar pbDetalle 
@@ -632,7 +632,7 @@ Begin VB.Form frmV_FacPed
             Strikethrough   =   0   'False
          EndProperty
          CustomFormat    =   "yyyy-MM-dd HH:mm"
-         Format          =   66387971
+         Format          =   66453507
          CurrentDate     =   37463
       End
       Begin VB.Frame frmPed 
@@ -2295,6 +2295,7 @@ Private Sub Command2_Click()
              " where pedido.emp_codigo='RYB' AND ped_estado in (0,1)" & _
              " "
     clsCons.Ejecutar strSql
+    MsgBox clsCons.adorec_Def.RecordCount & " Pedidos", vbInformation
     While Not clsCons.adorec_Def.EOF
         clsPed.RecalculoTotal clsCons.adorec_Def(0)
     clsCons.adorec_Def.MoveNext
