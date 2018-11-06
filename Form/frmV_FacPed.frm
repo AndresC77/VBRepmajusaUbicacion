@@ -114,6 +114,7 @@ Begin VB.Form frmV_FacPed
             EndProperty
             CustomFormat    =   "yyyy-MM-dd HH:mm"
             Format          =   66387971
+            Format          =   66453507
             CurrentDate     =   37463
          End
          Begin MSComCtl2.DTPicker dtpFechaFin 
