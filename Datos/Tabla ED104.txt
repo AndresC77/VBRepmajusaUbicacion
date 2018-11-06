@@ -1,0 +1,3 @@
+Código	Tipo de Sujeto
+S	SI tiene Retención Presuntiva
+N	NO tiene Retención Presuntiva

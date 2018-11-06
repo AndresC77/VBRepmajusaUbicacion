@@ -1,0 +1,4 @@
+Codigo	Codigo Tipo Transaccion	Codigo de Identificacion
+01	1	REGISTRO UNICO CONTRIBUYENTE
+02	1	CEDULA DE IDENTIDAD
+03	1	PASAPORTE

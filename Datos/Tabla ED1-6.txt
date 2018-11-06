@@ -1,0 +1,4 @@
+Código	Código Tipo Transacción	Código de Identificación
+12	6	REGISTRO UNICO CONTRIBUYENTE
+13	6	CÉDULA DE IDENTIDAD
+14	6	PASAPORTE

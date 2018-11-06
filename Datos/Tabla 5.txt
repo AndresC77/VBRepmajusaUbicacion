@@ -1,0 +1,5 @@
+Código	Descripción % Retenciones IVA
+0	0
+2	70
+3	100
+4	70/100

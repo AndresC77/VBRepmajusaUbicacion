@@ -1,0 +1,482 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Ayuda</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif ">
+<h1>Concepto de Retención en la fuente de Impuesto a la Renta</h1>
+<p>En este campo se identifica el código correspondiente al concepto de la retención.  Consta de tres caracteres, que deben ser registrados según la tabla 10 Conceptos de Retención AIR.  Este campo no es obligatorio, ya que una transacción, puede no tener retención en la fuente de Impuesto a la Renta.<br>
+En el caso de convenios de débito o recaudación, la institución financiera encargada del cobro reportará los datos en un solo registro acumulado por todos los comprobantes sobre los cuales efectuó la retención en representación, bajo el código 333 por CONVENIO DE DEBITO O RECAUDACIÓN.<br>
+Ejemplo:<br>
+Como funciona el proceso de convenios de débito y como se va a ingresar en Anexos. Por ejemplo Empresaa XY contrata TVcable y paga el servicio a través de Produbanco.<br>
+- Como informa el cliente (XY):  En el registro de compras, ingresa el registro de la compra realizada a TVcable como proveedor. A pesar que no hace las retenciones, va a ingresar los datos que el banco le da haciendo y en el concepto de retención en renta utiliza el código 333 CONVENIO DE DEBITO O RECAUDACIÓN, llenando solo la base imponible para identificar el gasto.  Porcentaje de retención y valor retenido informará en cero.<br>
+- Como informa el proveedor (TVcable):  En el registro de ventas, ingresa el registro de la venta realizada al cliente XY con su identificación, sin retenciones.  Como el banco es quién le efectúa la retención ingresa en otro registro la identificación del Banco, y solo informa en la parte de Retención en la Fuente de Impuesto a la Renta utilizando el código 333 CONVENIO DE DEBITO O RECAUDACIÓN,  reportando los valores de retención y base imponible que le realizaron.  Es decir termina ingresando dos registros: uno de su cliente (sin retenciones) y otro por el agente de retención (banco) donde solo reporta las retenciones.<br>
+- Como informa el Banco (Produbanco):  En el registro de compras, ingresa el registro acumulado al mes como que fuera una compra, con código 00 de No aplica (en la parte de sustento), y reporta al igual que el cliente, es decir, los datos del pago efectuado y las retenciones correspondientes acumuladas en un registro por la totalidad del pago y retención realizada al proveedor del servicio.  En la parte del concepto de retención en renta utiliza el código 333 CONVENIO DE DEBITO O RECAUDACION.
+</p>
+<table align="center" cellspacing="0" cellpadding="3" width="600" border="1">	
+	<tr>
+		<th colspan="6">Tabla 10: Conceptos de Retención en la Fuente de Impuesto a la Renta (AIR)</th>
+	</tr>
+	<tr>
+		<th width="80">CODIGO 2006 en adelante </th>
+		<th width="200">Concepto Retenci&oacute;n en la Fuente de Impuesto a la Renta (AIR) </th>
+		<th width="80">% RETENCION </th>
+		<th width="80">FECHA INICIO PORCENTAJE </th>
+		<th width="80">FECHA FIN PORCENTAJE </th>
+		<th width="80">Ingresa Porcentaje </th>
+	</tr>
+	<tr>
+		<td>303 </td>
+		<td>Honorarios, comisiones y dietas a personas naturales </td>
+		<td>8 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>303 </td>
+		<td>Honorarios, comisiones y dietas a personas naturales </td>
+		<td>5 </td>
+		<td>2003-02-01 </td>
+		<td>2003-03-31 </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>304 </td>
+		<td>Remuneracion a otros trabajadores autonomos </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>305 </td>
+		<td>Honorarios a extranjeros por servicios ocasionales </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>306 </td>
+		<td>Por compras locales de materia prima </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>307 </td>
+		<td>Por compras locales de bienes no producidos por la sociedad </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>308 </td>
+		<td>Por compras locales de materia prima no sujeta a retenci&oacute;n </td>
+		<td>- </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>309 </td>
+		<td>Por suministros y materiales </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>310 </td>
+		<td>Por repuestos y herramientas </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>311 </td>
+		<td>Por lubricantes </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>312 </td>
+		<td>Por activos fijos </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>313 </td>
+		<td>Por concepto de servicio de transporte privado de pasajeros o servicio publico o privado de carga </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>314 </td>
+		<td>Por regalias, derechos de autor, marcas, patentes y similares </td>
+		<td>8 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>315 </td>
+		<td>Por remuneraciones a deportistas, entrenadores, cuerpo tecnico, arbitros y artistas residentes </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>316 </td>
+		<td>Por pagos realizados a notarios y registradores de la propiedad o mercantiles </td>
+		<td>8 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>317 </td>
+		<td>Por comisiones pagadas a sociedades </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>318 </td>
+		<td>Por promocion y publicidad </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>319 </td>
+		<td>Por arrendamiento mercantil local </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>320 </td>
+		<td>Por arrendamiento de bienes inmuebles de propiedad de personas naturales </td>
+		<td>8 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>321 </td>
+		<td>Por arrendamiento de bienes inmuebles a sociedades </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>322 </td>
+		<td>Por seguros y reaseguros (10% del valor de las primas facturadas) </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323 </td>
+		<td>Por rendimientos financieros (no aplica para ifi's) </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323A </td>
+		<td>Por RF: dep&oacute;sitos Cta Corriente </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323B1 </td>
+		<td>Por RF: dep&oacute;sitos Cta Ahorros Sociedades </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323B2 </td>
+		<td>Por RF: dep&oacute;sitos Cta Ahorros Persona Natural </td>
+		<td>- </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323C </td>
+		<td>Por rendimientos financieros: dep&oacute;sitos en cuentas corrientes exentas </td>
+		<td>- </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323D </td>
+		<td>Por rendimientos financieros: compra, cancelaci&oacute;n o redenci&oacute;n de mini bem&acute;s y bem&acute;s </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323E </td>
+		<td>Por RF: dep&oacute;sito a plazo </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323F </td>
+		<td>Por rendimientos financieros: operaciones de reporto - repos </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323G </td>
+		<td>Por RF: inversiones (captaciones) </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323H </td>
+		<td>Por RF: obligaciones </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323I </td>
+		<td>Por RF: bonos convertible en acciones </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>323J </td>
+		<td>Por RF: bonos de organismos y gobiernos extranjeros </td>
+		<td>5 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>324 </td>
+		<td>Por pagos o creditos en cuenta realizados por empresas emisoras de tarjetas de credito </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>325 </td>
+		<td>Por loterias, rifas, apuestas y similares </td>
+		<td>15 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>326 </td>
+		<td>Por intereses y comisiones en operaciones de credito entre las inst. Del sistema financiero </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>327 </td>
+		<td>Por venta de combustibles a comercializadoras </td>
+		<td>0.20 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>328 </td>
+		<td>Por venta de combustibles a distribuidores </td>
+		<td>0.30 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>329 </td>
+		<td>Por otros servicios </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>330 </td>
+		<td>Por pagos de dividendos anticipados </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>331 </td>
+		<td>Por agua, energ&iacute;a, luz y telecomunicaciones </td>
+		<td>1 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>332 </td>
+		<td>Otras compras de bienes y servicios no sujetas a retenci&oacute;n </td>
+		<td>- </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>333 </td>
+		<td>Convenio de D&eacute;bito o Recaudaci&oacute;n </td>
+		<td>- </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>S </td>
+	</tr>
+	<tr>
+		<td>401 </td>
+		<td>Con convenio de doble tributacion </td>
+		<td>- </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>S </td>
+	</tr>
+	<tr>
+		<td>403 </td>
+		<td>Sin convenio de doble tributaci&oacute;n intereses y costos financideros por financiamiento de proveedores externos (en la cuantia que excede a la tasa m&aacute;xima) </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>405 </td>
+		<td>Sin convenio de doble tributaci&oacute;n intereses de cr&eacute;ditos externos registrados en el bce (en la cuantia que excede a la tasa m&aacute;xima) </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>407 </td>
+		<td>Sin convenio de doble tributaci&oacute;n intereses de cr&eacute;ditos externos no registrados en el bce </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>409 </td>
+		<td>Sin convenio de doble tributaci&oacute;n comisiones por exportaciones </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>411 </td>
+		<td>Sin convenio de doble tributaci&oacute;n comisiones pagadas para la promocion del turismo receptivo </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>413 </td>
+		<td>Sin convenio de doble tributaci&oacute;n el 4% de las primas de cesi&oacute;n o reaseguros contratados con empresas que no tengan establecimiento o representaci&oacute;n permanente en el ecuador </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>415 </td>
+		<td>Sin convenio de doble tributaci&oacute;n el 10% de los pagos efectuados por las agencias internacionales de prensa registradas en la secretar&iacute;a de comunicaci&oacute;n del estado </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>417 </td>
+		<td>Sin convenio de doble tributaci&oacute;n el 10% del valor de los contratos de fletamento de naves para empresas de transporte a&eacute;reo o mar&iacute;timo internacional </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>419 </td>
+		<td>Sin convenio de doble tributaci&oacute;n el 15% de los pagos efectuados por productoras y distribuidoras de cintas cinematogr&aacute;ficas y de televisi&oacute;n por sin concepto de arrendamiento de cintas y videocintas </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>421 </td>
+		<td>Sin convenio de doble tributaci&oacute;n por otros conceptos </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>423 </td>
+		<td>Arrendamiento mercantil internacional por pago de intereses (cuando supera la tasa autorizada por el bce) </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+	<tr>
+		<td>425 </td>
+		<td>Arrendamiento mercantil internacional cuando no se ejerce la opcion de compra (sobre la depreciaci&oacute;n acumulada) </td>
+		<td>25 </td>
+		<td>2003-04-01 </td>
+		<td>&nbsp; </td>
+		<td>N </td>
+	</tr>
+</table>
+<p style="color:#999999;font-size:11px " > Información tomada de: FICHA TÉCNICA DE ANEXO TRANSACCIONAL (SRI) Ficha_Tecnica_AT_descripcion_de_campos.doc </p>
+</body>
+</html>

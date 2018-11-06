@@ -1,0 +1,64 @@
+Descripción del campo	Nombre del campo xml	Longitud Mínima	Longitud Máxima	Tipo de Campo	Formato	Requisito	Formato	Mascara	TablaCampo	DependeCampo	Verifica/Acción	Orden	OrdenColumna
+Identificación del sustento tributario	codSustento	2	2	Caracter	Tabla 3	obligatorio	00		0			1	1
+Tipo de Identificación del Proveedor	tpIdProv	2	2	Caracter	Tabla ED1-1	obligatorio	00		0			2	2
+No. de Identificación del Proveedor	idProv	10	13	Caracter		obligatorio	0000000000###					3	3
+Código tipo de comprobante	tipoComprobante	2	2	Caracter	Tabla 2	obligatorio	00		0	1	4	4	4
+Tipo de Proveedor	tipoProv	2	2	Código	Tabla 17	condicional	00		0	2	2	5	5
+Parte Relacionada	parteRel	2	2	Alfabético	Tabla sino	condicional	>&&		0	2	1	6	6
+Fecha de registro contable del comprobante de venta	fechaRegistro	10	10	Fecha	Dd/mm/aaaa	obligatorio	dd/mm/yyyy	##/##/####				7	7
+No. de serie del comprobante de venta - establecimiento	establecimiento	3	3	Caracter	enteros	obligatorio	000					8	8
+No. de serie del comprobante de venta - punto de emisión	puntoEmision	3	3	Caracter	enteros	obligatorio	000					9	9
+No. secuencial del comprobante de venta	secuencial	1	9	Caracter	enteros	obligatorio	######0					10	10
+Fecha de emisión del comprobante de venta	fechaEmision	10	10	Fecha	Dd/mm/aaaa	obligatorio	dd/mm/yyyy	##/##/####				11	11
+     No. de autorización del comprobante de venta	autorizacion	3	37	Caracter	números	obligatorio						12	12
+Base imponible No objeto de IVA	baseNoGraIva	4	15	Numérico	2 decimales	obligatorio	########0.00					13	13
+Base imponible tarifa 0% IVA	baseImponible	4	15	Numérico	2 decimales	obligatorio	########0.00					14	14
+Base imponible tarifa IVA diferente de 0%	baseImpGrav	4	15	Numérico	2 decimales	obligatorio	########0.00					15	15
+Base imponible exenta de IVA	baseImpExe	4	15	Numérico	2 decimales	obligatorio	########0.00					16	16
+Monto ICE	montoIce	4	15	Numérico	2 decimales	obligatorio	########0.00					17	17
+Monto IVA	montoIva	4	15	Numérico	2 decimales	obligatorio	########0.00					18	18
+Retención IVA 10%	valRetBien10	4	15	Numérico	2 decimales	obligatorio	########0.00					19	19
+Retención IVA 20%	valRetServ20	4	15	Numérico	2 decimales	obligatorio	########0.00					20	20
+Retención de IVA - Bienes	valorRetBienes	4	15	Numérico	2 decimales	obligatorio	########0.00					21	21
+Retención de IVA - Servicios	valorRetServicios	4	15	Numérico	2 decimales	obligatorio	########0.00					22	22
+Retención IVA 100%	valRetServ100	4	15	Numérico	2 decimales	obligatorio	########0.00					23	23
+Tipo de Identificación del Proveedor Reembolso	tpIdProvReemb	2	2	Caracter	Tabla ED1-1	condicional	00	00	0			24	35
+No. de Identificación del Proveedor Reembolso	idProvReemb	3	13	Caracter		condicional	0000000000###					25	36
+Código tipo de comprobante Reembolso	tipoComprobanteReemb	2	2	Caracter	Tabla 2	condicional	00		0			26	37
+No. de serie del comprobante de venta Reembolso - establecimiento	establecimientoReemb	3	3	Caracter	enteros	condicional	000					27	38
+No. de serie del comprobante de venta Reembolso - punto de emisión	puntoEmisionReemb	3	3	Caracter	enteros	condicional	000					28	39
+No. secuencial del comprobante de venta Reembolso	secuencialReemb	1	9	Caracter	enteros	condicional	######0					29	40
+Fecha de emisión del comprobante de venta Reembolso	fechaEmisionReemb	10	10	Fecha	Dd/mm/aaaa	condicional	dd/mm/yyyy	##/##/####				30	41
+No. de autorización del comprobante de venta Reembolso	autorizacionReemb	3	37	Caracter	enteros	condicional	#######000					31	42
+Base Imponible tarifa 0% IVA Reembolso	baseImponibleReemb	4	15	Numérico	2 decimales	condicional	########0.00					32	43
+Base Imponible tarifa IVA diferente de 0% Reembolso	baseImpGravReemb	4	15	Numérico	2 decimales	condicional	########0.00					33	44
+Base Imponible no objeto de IVA - REEMBOLSO	baseNoGraIvaReemb	4	15	Numérico	2 decimales	condicional	########0.00					34	45
+Base imponible exenta de IVA Reembolso	baseImpExeReemb	4	15	Numérico	2 decimales	condicional	########0.00					35	46
+Total  Bases  Imponibles Reembolso	totbasesImpReemb	4	15	Numérico	2 decimales	condicional	########0.00					36	47
+Monto ICE Reembolso	montoIceReemb	4	15	Numérico	2 decimales	condicional	########0.00					37	48
+Monto IVA Reembolso	montoIvaRemb	4	15	Numérico	2 decimales	condicional	########0.00					38	49
+Pago Local o al Exterior	pagoLocExt	2	2	Caracter	Tabla 18	obligatorio	00		0			39	24
+País al que se Efectúa el Pago	paisEfecPago	0	3	Caracter	Tabla 19	condicional	>&&&		0	21	2	40	25
+Aplica Convenio de Doble Tributación en el pago	aplicConvDobTrib	2	2	Alfabético	Tabla sino	condicional	>&&		0	21	2	41	26
+Pago al exterior sujeto a retención en aplicación a la norma legal	pagExtSujRetNorLeg	2	2	Alfabético	Tabla sino	condicional	>&&		0	21	2	42	27
+El pago es a un régimen fiscal preferente o de menor imposición?	pagoRegFis	2	2	Alfabético	Tabla sino	condicional	>&&		0	21	2	43	28
+Forma de pago	formaPago	2	2	Código	Tabla 16	condicional	00		0			44	29
+Concepto de Retención en la fuente de Impuesto a la Renta	codRetAir	3	5	Caracter	Tabla 10	condicional			0			45	55
+Base Imponible Renta	baseImpAir	4	12	Numérico	2 decimales	condicional	########0.00					46	56
+Porcentaje de retención de Renta	porcentajeAir	1	5	Numérico	Tabla 10	condicional	#0.00		2	49	=	47	57
+Monto de retención de Renta	valRetAir	4	12	Numérico	2 decimales	condicional	########0.00					48	58
+Fecha de pago del dividendo	fechaPagoDiv	10	10	Fecha	Dd/mm/aaaa	condicional	dd/mm/yyyy	##/##/####				49	59
+Impuesto a la Renta pagado por la sociedad correspondiente al dividendo	imRentaSoc	4	15	Numérico	2 decimales	condicional	########0.00					50	60
+Año en que se generaron las utilidades atribuibles al dividendo.	anioUtDiv	4	4	Numérico	enteros	condicional	0000					51	61
+Cantidad de cajas estandar de banano	NumCajBan	1	7	Numérico	2 decimales	condicional	########0.00					52	62
+Precio de la caja de banano	PrecCajBan	1	2	Numérico	2 decimales	condicional	########0.00					53	63
+No. de serie del comprobante de retención - establecimiento	estabRetencion1	3	3	Caracter	enteros	condicional	000					54	50
+No. de serie del comprobante de retención - punto de emisión	ptoEmiRetencion1	3	3	Caracter	enteros	condicional	000					55	51
+No. secuencial del comprobante de retención	secRetencion1	1	9	Caracter	enteros	condicional	######0					56	52
+No. de autorización del comprobante de retención	autRetencion1	3	37	Caracter	números	condicional						57	53
+Fecha de emisión del comprobante de retención	fechaEmiRet1	10	10	Fecha	Dd/mm/aaaa	condicional	dd/mm/yyyy	##/##/####				58	54
+Código tipo de comprobante modificado por una Nota de Crédito o Débito	docModificado	2	2	Caracter	Tabla 2	condicional	00		0			59	30
+No. de serie del comprobante modificado - establecimiento	estabModificado	3	3	Caracter	enteros	condicional	000					60	31
+No. de serie del comprobante modificado - punto de emisión	ptoEmiModificado	3	3	Caracter	enteros	condicional	000					61	32
+No. secuencial del comprobante modificado	secModificado	1	9	Caracter	enteros	condicional	######0					62	33
+No. de autorización del comprobante modificado	autModificado	3	37	Caracter	enteros	condicional	#######000					63	34

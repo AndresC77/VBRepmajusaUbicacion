@@ -1,0 +1,3 @@
+Código	Tipo de Sujeto
+S	SI tiene derecho a devolución de IVA
+N	NO tiene derecho a devolución de IVA

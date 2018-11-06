@@ -1,0 +1,41 @@
+Código	Descripción
+10	Importacion a consumo
+11	Importacion a consumo con franquicia arancelaria (282)
+12	Exportación bajo reposición en franquicia arancelaria
+20	Impo.- admision temporal con reexp. En el mismo estado
+21	Impo.- admision temporal para perfeccionamiento activo
+24	Impo. - ferias internacionales
+31	Reimp. De mercancias exportadas temporalmente para perfeccionamiento pasivo
+32	Reimportación de mercancías exportadas temporalmente
+40	Exportacion a consumo
+47	Liquidacion Manual - Garantias
+48	Liquidacion Manual - Exportacion
+49	iquidacion Manual - Paquetes Postales
+50	Expo. Temporal con reimportacion en el mismo estado
+51	Expo. Temporal para perfeccionamiento pasivo
+53	Expo. Con devolucion condicionada de tributos (drawb.)
+54	Liquidacion Manual - Multas
+55	Liquidacion Manual - Rectificacion De Tributos
+56	Liquidacion Manual - Remates
+57	Liquidacion Manual - Couriers
+58	Liquidacion Manual - Pasajeros
+59	Liquidacion Manual - Importaciones
+57	Liquidaciones efectuadas en sala de arribo
+60	Reexp. De mercancias en el mismo estado
+61	Reexportacion de mercancias que fueron importadas para perfeccionamiento activo
+70	Impo.- deposito aduanero comercial publico
+71	Impo.- deposito aduanero comercial privado
+72	Impo.- deposito aduanero industrial
+73	Impo.- almacen libre (in bond o duty free)
+74	Impo. - maquilas
+75	Reexportacion de productos maquilados
+76	Reexportacion de productos transformados en deposito industrial
+77	Reexportacion de mercancias que fueron importadas a deposito comercial
+78	Reexportación de mercancías ingresadas a almacenes libres
+79	Exportacion a consumo desde zona franca
+80	Transito aduanero
+90	Zona franca
+91	Trafico postal internacional y courier
+92	Trafico fronterizo
+93	Zona de libre comercio
+94	Courier exportacion

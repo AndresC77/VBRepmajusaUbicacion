@@ -1,0 +1,3 @@
+Código	Tipo de Sujeto
+S	SI tiene IVA Presuntivo
+N	NO tiene IVA Presuntivo

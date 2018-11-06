@@ -1,0 +1,3 @@
+Código Operación	Tipo de Ingreso
+01	Ley Solidaridad -Zonas Afectadas 
+02	Medios  Electrónicos

@@ -1,0 +1,9 @@
+Descripción del campo	Nombre del campo xml	Longitud Mínima	Longitud Máxima	Tipo de Campo	Formato	Requisito	Formato	Mascara	TablaCampo	DependeCampo	Verifica/Acción	Orden	OrdenColumna
+Tipo de identificación del informante	TipoIDInformante	1	1	Alfabético	Tabla 8	Obligatorio	>&		0			1	1
+RUC del informante	IdInformante	13	13	caracter	números	obligatorio	0000000000000	0000000000000				2	2
+Razón o denominación social	razonSocial	1	60	caracter	mayúsculas	obligatorio	>&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&					3	3
+Año - período informado	Anio	4	4	caracter	números	obligatorio	0000	0000				4	4
+Mes - período informado	Mes	2	2	caracter	números	obligatorio	00	00				5	5
+Número de Establecimientos del sujeto pasivo inscritos en el RUC	numEstabRuc	3	3	Numérico	enteros	Obligatorio	000	000				6	6
+Total venta reportadas en el periodo informado	totalVentas	4	15	Numérico	2 decimales	Obligatorio	########0.00					7	7
+Código tipo de Operativo	codigoOperativo	3	3	caracter	mayúsculas	Obligatorio	>&&&					8	8

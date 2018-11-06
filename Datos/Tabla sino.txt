@@ -1,0 +1,3 @@
+CODIGO	Tipo de Identificacion	doble tributacion
+SI	03	02
+NO	03	02

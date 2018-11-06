@@ -1,0 +1,25 @@
+Descripción del campo	Nombre del campo xml	Longitud Mínima	Longitud Máxima	Tipo de Campo	Formato	Requisito	Formato	Mascara	TablaCampo	DependeCampo	Verifica/Acción	Orden	OrdenColumna
+Identificación del sustento tributario	codSustento	2	2	Caracter	Tabla 3	obligatorio	00	00	0		"01, 02, 03, 04, 05, 06, 07 ,08"	1	1
+Importación de	importacionDe	1	1	Caracter	Tabla b	obligatorio	0	0	0			2	2
+Fecha de liquidación o pago	fechaLiquidacion	10	10	Fecha	Dd/mm/aaaa	obligatorio	dd/mm/yyyy	##/##/####				3	3
+Código tipo de comprobante	tipoComprobante	1	2	Caracter	Tabla 2	obligatorio	#0		0	1	4	4	4
+No. de refrendo - Distrito Aduanero	distAduanero	3	3	caracter	Tabla 12	condicional	000	000	0			5	5
+No. de refrendo - Año	anio	4	4	caracter	enteros	condicional	####					6	6
+No. del refrendo - Régimen	regimen	2	2	caracter	Tabla 9	condicional	##	00	0			7	7
+No. del refrendo - Correlativo	correlativo	6	6	caracter	enteros	condicional	000000					8	8
+No. del refrendo - Verificador	verificador	1	1	caracter	enteros	condicional	0	0				9	9
+No. de identificación fiscal del proveedor	idFiscalProv	1	13	caracter		obligatorio	############0					10	10
+Valor CIF	valorCIF	4	12	Numérico	2 decimales	obligatorio	########0.00					11	11
+Razón o denominación social del proveedor	razonSocialProv	1	60	caracter		obligatorio	>&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&					12	12
+Tipo de sujeto proveedor	tipoSujeto	1	1	caracter	Tabla 13	obligatorio	0	0	0			13	13
+Base imponible tarifa 0%	baseImponible	4	12	Numérico	2 decimales	condicional	########0.00					14	14
+Base imponible gravada de IVA	baseImpGrav	4	12	Numérico	2 decimales	condicional	########0.00					15	15
+Código porcentaje de IVA	porcentajeIva	1	1	Numérico	Tabla 4	condicional	0	0	0			16	16
+Monto IVA	montoIva	4	12	Numérico	2 decimales	condicional	########0.00					17	17
+Base imponible de ICE	baseImpIce	4	12	Numérico	2 decimales	condicional	########0.00					18	18
+Código porcentaje de ICE	porcentajeIce	1	2	Numérico	Tabla 6	condicional	#0		0			19	19
+Monto ICE	montoIce	4	12	Numérico	2 decimales	condicional	########0.00					20	20
+Concepto de Retención en la fuente de Impuesto a la Renta	codRetAir	3	5	Caracter	Tabla 10	condicional			0			21	21
+Base Imponible Renta	baseImpAir	4	12	Numérico	2 decimales	condicional	########0.00					22	22
+Porcentaje de retención de Renta	porcentajeAir	1	5	Numérico	Tabla 10	condicional	#0.00		2	21	=	23	23
+Monto de retención de Renta	valRetAir	4	12	Numérico	2 decimales	condicional	########0.00					24	24

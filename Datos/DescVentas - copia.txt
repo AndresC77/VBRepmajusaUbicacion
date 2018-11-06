@@ -1,0 +1,11 @@
+Descripción del campo	Nombre del campo xml	Longitud Mínima	Longitud Máxima	Tipo de Campo	Formato	Requisito	Formato	Mascara	TablaCampo	DependeCampo	Verifica/Acción	Orden	OrdenColumna
+Tipo de Identificación del Cliente	tpIdCliente	2	2	Caracter	Tabla ED1-2	obligatorio	00	00	0			1	1
+No. de Identificación del Cliente	idCliente	10	13	Caracter		obligatorio	0000000000###					2	2
+Código tipo de comprobante	tipoComprobante	1	2	Caracter	Tabla 2	obligatorio	00	00	0		"18, 41, 04, 05"	3	3
+No. de Comprobantes Emitidos	numeroComprobantes	1	12	Caracter	enteros	obligatorio	###########0					4	4
+Base imponible No objeto de IVA	baseNoGraIva	4	12	Numérico	2 decimales	obligatorio	########0.00					5	5
+Base imponible tarifa 0%	baseImponible	4	12	Numérico	2 decimales	obligatorio	########0.00					6	6
+Base imponible tarifa IVA diferente 0%	baseImpGrav	4	12	Numérico	2 decimales	obligatorio	########0.00					7	7
+Monto IVA	montoIva	4	12	Numérico	2 decimales	obligatorio	########0.00					8	8
+Valor de IVA que le han retenido	valorRetIva	4	12	Numérico	2 decimales	obligatorio	########0.00					9	9
+Valor de Renta que le han retenido	valorRetRenta	4	12	Numérico	2 decimales	obligatorio	########0.00					10	10

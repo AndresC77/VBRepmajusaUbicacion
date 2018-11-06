@@ -1,0 +1,30 @@
+Descripción del campo	Nombre del campo xml	Longitud Mínima	Longitud Máxima	Tipo de Campo	Formato	Requisito	Formato	Mascara	TablaCampo	DependeCampo	Verifica/Acción	Orden	OrdenColumna
+Tipo de Identificación del Establecimiento	establecimientoRecap	2	2	Caracter	Tabla ED1-5	obligatorio	0	0	0			1	1
+No. de Identificación del Establecimiento	identificacionRecap	13	13	Caracter		obligatorio	0000000000###					2	2
+Código tipo de comprobante	tipoComprobante	1	2	Caracter	Tabla 2	obligatorio	#0		0		"22, 23, 24"	3	3
+No. de RECAP	numeroRecap	15	15	Caracter	enteros	obligatorio	000000000000000	##############0				4	4
+Fecha de pago	fechaPago	10	10	Fecha	Dd/mm/aaaa	obligatorio	dd/mm/yyyy	##/##/####				5	5
+Código de la Tarjeta de Crédito	tarjetaCredito	2	2	Caracter	Tabla 7	obligatorio	00		0			6	6
+Fecha de emisión	fechaEmisionRecap	10	10	Fecha	Dd/mm/aaaa	obligatorio	dd/mm/yyyy	##/##/####				7	7
+Consumo tarifa 0%	consumoCero	4	12	Numérico	2 decimales	obligatorio	########0.00					8	8
+Consumo Gravado	consumoGravado	4	12	Numérico	2 decimales	obligatorio	########0.00					9	9
+Total Comsumo	totalConsumo	4	12	Numérico	2 decimales	obligatorio	########0.00					10	10
+Monto IVA	montoIva	4	12	Numérico	2 decimales	obligatorio	########0.00					11	11
+Comisión	comision	4	12	Numérico	2 decimales	obligatorio	########0.00					12	12
+No. de Vouchers Emitidos	numeroVouchers	1	12	Caracter	enteros	obligatorio	###########0					13	13
+Monto de IVA - Bienes	montoIvaBienes	4	12	Numérico	2 decimales	obligatorio	########0.00					14	14
+Código porcentaje de retención de IVA - Bienes	porRetBienes	1	1	Numérico	Tabla 5a	obligatorio	0	0	0			15	15
+Monto de retención de IVA - Bienes	valorRetBienes	4	12	Numérico	2 decimales	obligatorio	########0.00					16	16
+Monto de IVA - Servicios	montoIvaServicios	4	12	Numérico	2 decimales	obligatorio	########0.00			11|14	-	17	17
+Código porcentaje de retención de IVA - Servicios	porRetServicios	1	1	Numérico	Tabla 5	obligatorio	0	0	0			18	18
+Monto de retención de IVA - Servicios	valorRetServicios	4	12	Numérico	2 decimales	obligatorio	########0.00					19	19
+Concepto de Retención en la fuente de Impuesto a la Renta	codRetAir	3	5	Caracter	Tabla 10	condicional			0			20	26
+Base Imponible Renta	baseImpAir	4	12	Numérico	2 decimales	condicional	########0.00					21	27
+Porcentaje de retención de Renta	porcentajeAir	1	5	Numérico	Tabla 10	condicional	#0.00		2	26	=	22	28
+Monto de retención de Renta	valRetAir	4	12	Numérico	2 decimales	condicional	########0.00					23	29
+No. de serie del comprobante de retención - establecimiento	establecimiento	3	3	Caracter	enteros	obligatorio	000					24	20
+No. de serie del comprobante de retención - punto de emisión	puntoEmision	3	3	Caracter	enteros	obligatorio	000					25	21
+No. secuencial del comprobante de retención	secuencial	1	7	Caracter	enteros	obligatorio	######0					26	22
+Fecha de registro del comprobante de retención	fechaRegistro	10	10	Fecha	Dd/mm/aaaa	obligatorio	dd/mm/yyyy	##/##/####				27	23
+No. de autorización del comprobante de retención	autorizacion	3	10	Caracter	enteros	obligatorio	#######000					28	24
+Fecha de emisión del comprobante de retención	fechaEmision	10	10	Fecha	Dd/mm/aaaa	obligatorio	dd/mm/yyyy	##/##/####				29	25

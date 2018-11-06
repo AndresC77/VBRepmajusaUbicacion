@@ -1,0 +1,23 @@
+Descripción del campo	Nombre del campo xml	Longitud Mínima	Longitud Máxima	Tipo de Campo	Formato	Requisito	Formato	Mascara	TablaCampo	DependeCampo	Verifica/Acción	Orden	OrdenColumna
+Exportación de	exportacionDe	1	1	Caracter	Tabla b	obligatorio	0	0	0			1	1
+Código tipo de comprobante	tipoComprobante	1	2	Caracter	Tabla 2	obligatorio	#0		0		"1, 16, 4, 5"	2	2
+No. de refrendo - Distrito Aduanero	distAduanero	3	3	caracter	Tabla 12	condicional	000	000	0			3	3
+No. de refrendo - Año	anio	4	4	caracter	enteros	condicional	0000					4	4
+No. del refrendo - Régimen	regimen	2	2	caracter	Tabla 9	condicional	00	00	0			5	5
+No. del refrendo - Correlativo	correlativo	6	6	caracter	enteros	condicional	000000					6	6
+No. del refrendo - Verificador	verificador	1	1	caracter	enteros	condicional	0	0				7	7
+No. de documento de transporte	docTransp	13	13	Caracter	enteros	condicional	0000000000000	0000000000000				8	8
+Fecha de la transacción	fechaEmbarque	10	10	Fecha	Dd/mm/aaaa	obligatorio	dd/mm/yyyy	##/##/####				9	9
+No. de identificación fiscal del cliente	idFiscalCliente	1	13	caracter	 	obligatorio	############0					10	10
+Tipo de sujeto cliente	tipoSujeto	1	1	caracter	Tabla 13	obligatorio	0	0	0			11	11
+Valor FOB	valorFOB	4	12	Numérico	2 decimales	obligatorio	########0.00					12	12
+Razón o denominación social del cliente	razonSocialCliente	1	60	caracter	 	obligatorio	>&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&					13	13
+Devolución de IVA	devIva	1	1	Caracter	Tabla ED102	obligatorio	&	>&	0			14	14
+Código tipo de comprobante - exp	facturaExportacion	1	2	Caracter	Tabla 2	obligatorio	#0		0		1	15	15
+Valor del comprobante local	valorFOBComprobante	4	12	Numérico	2 decimales	obligatorio	########0.00					16	16
+No. de serie del comprobante de venta - establecimiento	establecimiento	3	3	Caracter	enteros	obligatorio	000					17	17
+No. de serie del comprobante de venta - punto de emisión	puntoEmision	3	3	Caracter	enteros	obligatorio	000					18	18
+No. secuencial del comprobante de venta	secuencial	1	7	Caracter	enteros	obligatorio	######0					19	19
+Fecha de registro contable del comprobante de venta	fechaRegistro	10	10	Fecha	Dd/mm/aaaa	obligatorio	dd/mm/yyyy	##/##/####				20	20
+No. de autorización del comprobante de venta	autorizacion	3	10	Caracter	enteros	obligatorio	#######000					21	21
+Fecha de emisión del comprobante de venta	fechaEmision	10	10	Fecha	Dd/mm/aaaa	obligatorio	dd/mm/yyyy	##/##/####				22	22

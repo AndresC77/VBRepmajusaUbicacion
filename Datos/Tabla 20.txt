@@ -1,0 +1,3 @@
+Código	Tipo Doc
+F	Facturación Física
+E	Facturación Electrónica

@@ -1,0 +1,9 @@
+Descripción del campo	Nombre del campo xml	Longitud Mínima	Longitud Máxima	Tipo de Campo	Formato	Requisito	Formato	Mascara	TablaCampo	DependeCampo	Verifica/Acción	Orden	OrdenColumna
+Tipo de Identificación del Beneficiario	tipoBeneficiario	2	2	Caracter	Tabla ED1-7	obligatorio	00	00	0			1	1
+No. de Identificación del Beneficiario	idBeneficiario	10	13	Caracter		obligatorio	###0000000000					2	2
+RUC del fideicomiso	rucFideicomiso	13	13	Caracter	enteros	obligatorio	0000000000000	0000000000000				3	3
+Tipo de Fideicomiso	tipoFideicomiso	1	2	Caracter	Tabla 11	obligatorio	#0		0			4	4
+Monto del Beneficio Total	totalF	4	12	Numérico	2 decimales	obligatorio	########0.00					5	5
+Monto del Beneficio Individual	individualF	4	12	Numérico	2 decimales	obligatorio	########0.00					6	6
+Porcentaje de retención de Renta	porRetF	1	5	Numérico	Tabla 11	obligatorio	#0.00		2	4	=	7	7
+Monto de retención de Renta	valorRetF	4	12	Numérico	2 decimales	obligatorio	########0.00					8	8

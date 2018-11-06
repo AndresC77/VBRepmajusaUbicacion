@@ -1,0 +1,861 @@
+[Root]
+Most Recent Package=NEED 2.0 MartelCablecom
+Most Recent Deploy=Distribución NEED ENLACE
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Sistema Admin\Paquete
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\WINNT\system32\Vsflex7L.ocx=
+C:\WINNT\system32\Vsflex7.ocx=
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+
+[Package|Paquete de instalación estándar 1|Files Added]
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+F:\Sistema Admin\Modulo\SisAdmi.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6ES.DLL=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCES.DLL=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDES.DLL=Yes
+C:\WINNT\system32\MSDATLST.OCX=Yes
+C:\WINNT\system32\DATLSES.DLL=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSMSKES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\Vsflex7.ocx=Yes
+C:\WINNT\system32\Vsflex7L.ocx=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2ES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+F:\Sistema Admin\Modulo\SisAdmi.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINNT\system32\DATLSES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMSKES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\Vsflex7.ocx=$(WinSysPath)
+C:\WINNT\system32\Vsflex7L.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+F:\Sistema Admin\Modulo\SisAdmi.exe=No
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=SisAdmi
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=SisAdmi
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|SisAdmi]
+Icon1=SisAdmi.exe
+Title1=SisAdmi
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=F:\Sistema Admin\Paquete
+ProjectFolder=F:\Sistema Admin\Modulo
+ServerSideCab=
+File1=F:\Sistema Admin\Paquete\setup.exe
+File2=F:\Sistema Admin\Paquete\Setup.Lst
+File3=F:\Sistema Admin\Paquete\SisAdmi.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Sistema Martel|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Sistema Admin\Paquete2
+
+[Package|Sistema Martel|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Sistema Martel|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Sistema Martel|Files Found]
+
+[Package|Sistema Martel|Files Released]
+
+[Package|Sistema Martel|Missing Dependency Information]
+C:\WINNT\system32\Vsflex7L.ocx=
+C:\WINNT\system32\Vsflex7.ocx=
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=
+
+[Package|Sistema Martel|Out-of-Date Dependency Information]
+
+[Package|Sistema Martel|Files Added]
+
+[Package|Sistema Martel|Files Removed]
+
+[Package|Sistema Martel|Files In Project]
+F:\Sistema Admin\Modulo\SisAdmi.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6ES.DLL=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\STDFTES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDES.DLL=Yes
+C:\WINNT\system32\MSDATLST.OCX=Yes
+C:\WINNT\system32\DATLSES.DLL=Yes
+C:\WINNT\system32\MSMASK32.OCX=Yes
+C:\WINNT\system32\MSMSKES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\Vsflex7.ocx=Yes
+C:\WINNT\system32\Vsflex7L.ocx=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSCC2ES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\MSDBRPTR.DLL=Yes
+C:\WINNT\system32\DBRPRES.DLL=Yes
+
+[Package|Sistema Martel|Configure Registry Files]
+Applicable=No
+
+[Package|Sistema Martel|Configure Remote Servers]
+Applicable=No
+
+[Package|Sistema Martel|Install Locations]
+F:\Sistema Admin\Modulo\SisAdmi.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINNT\system32\DATLSES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMSKES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\Vsflex7.ocx=$(WinSysPath)
+C:\WINNT\system32\Vsflex7L.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINNT\system32\DBRPRES.DLL=$(WinSysPath)
+
+[Package|Sistema Martel|Configure Shared Files]
+Applicable=Yes
+F:\Sistema Admin\Modulo\SisAdmi.exe=No
+
+[Package|Sistema Martel|Distribution]
+Type=single
+Size=1.44 MB
+Title=Sistema Martel
+
+[Package|Sistema Martel|IconGroups]
+Group0=SisAdmi
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Sistema Martel|SisAdmi]
+Icon1=SisAdmi.exe
+Title1=SisAdmi
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Sistema Martel|Package]
+PackageFolder=F:\Sistema Admin\Paquete2
+ProjectFolder=F:\Sistema Admin\Modulo
+ServerSideCab=
+File1=F:\Sistema Admin\Paquete2\setup.exe
+File2=F:\Sistema Admin\Paquete2\Setup.Lst
+File3=F:\Sistema Admin\Paquete2\SisAdmi.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Distribución NEED ENLACE|Root]
+Package=NEED
+Handler=PDWizard.FolderDplySubWiz
+Folder=d:\Enlace\distribucion
+
+
+[Package|NEED|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\South\VB\Instalador
+
+[Package|NEED|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NEED|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NEED|Files Found]
+
+[Package|NEED|Files Released]
+
+[Package|NEED|Missing Dependency Information]
+C:\WINNT\system32\Vsflex7L.ocx=
+C:\WINNT\system32\Vsflex7.ocx=
+C:\WINDOWS\system32\Vsflex7L.ocx=
+C:\WINDOWS\system32\Vsflex7.ocx=
+C:\SRI\ANEXO_TRANSACCIONAL\Dlls\MSDBRPTR.DLL=
+
+[Package|NEED|Out-of-Date Dependency Information]
+
+[Package|NEED|Files Added]
+
+[Package|NEED|Files Removed]
+c:\sri\anexo_transaccional\dlls\msdbrptr.dll=
+
+[Package|NEED|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTES.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\DATGDES.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\DATLSES.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\MSMSKES.DLL=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\Vsflex7.ocx=Yes
+C:\WINDOWS\system32\Vsflex7L.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2ES.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGES.DLL=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\South\VB\SisAdmi.exe=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=Yes
+C:\SRI\ANEXO_TRANSACCIONAL\Dlls\MSDBRPTR.DLL=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|NEED|Configure Registry Files]
+Applicable=No
+
+[Package|NEED|Configure Remote Servers]
+Applicable=No
+
+[Package|NEED|Install Locations]
+F:\Sistema Admin\Modulo\SisAdmi.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINNT\system32\DATLSES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMSKES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\Vsflex7.ocx=$(WinSysPath)
+C:\WINNT\system32\Vsflex7L.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINNT\system32\DBRPRES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\moduloMartel\SisAdmi.exe=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+F:\Enlace\Modulo\SisAdmi.exe=$(AppPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGES.DLL=$(WinSysPath)
+D:\Enlace\Modulo\SisAdmi.exe=$(AppPath)
+D:\Enlace\VB\SisAdmi.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATGDES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATLSES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMSKES.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\Vsflex7.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Vsflex7L.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DBRPRES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\South\VB\SisAdmi.exe=$(AppPath)
+
+[Package|NEED|Configure Shared Files]
+Applicable=Yes
+F:\Sistema Admin\Modulo\SisAdmi.exe=No
+E:\moduloMartel\SisAdmi.exe=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+F:\Enlace\Modulo\SisAdmi.exe=No
+D:\Enlace\Modulo\SisAdmi.exe=No
+D:\Enlace\VB\SisAdmi.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\South\VB\SisAdmi.exe=No
+
+[Package|NEED|Distribution]
+Type=single
+Size=
+Title=NEED - Enlace Digital
+
+[Package|NEED|IconGroups]
+Group0=NEED - Enlace Digital
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|NEED|NEED - Enlace Digital]
+Icon1=SisAdmi.exe
+Title1=NEED
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|NEED|Package]
+PackageFolder=D:\South\VB\Instalador
+ProjectFolder=D:\South\VB
+ServerSideCab=
+File1=D:\South\VB\Instalador\setup.exe
+File2=D:\South\VB\Instalador\Setup.Lst
+File3=D:\South\VB\Instalador\SisAdmi.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|NEED 2.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Instaladores\Martel
+
+[Package|NEED 2.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NEED 2.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NEED 2.0|Files Found]
+
+[Package|NEED 2.0|Files Released]
+
+[Package|NEED 2.0|Missing Dependency Information]
+C:\WINDOWS\system32\vsrpt8.ocx=
+C:\WINDOWS\system32\vsprint8.ocx=
+C:\SRI\ANEXO_TRANSACCIONAL\Dlls\MSDBRPTR.DLL=
+C:\WINDOWS\system32\vsflex8l.ocx=
+C:\WINDOWS\system32\vsflex8.ocx=
+C:\WINDOWS\system32\ieframe.dll=
+
+[Package|NEED 2.0|Out-of-Date Dependency Information]
+
+[Package|NEED 2.0|Files Added]
+d:\martel\vb2\vsreport\reportes.xml=
+
+[Package|NEED 2.0|Files Removed]
+c:\sri\anexo_transaccional\dlls\msdbrptr.dll=
+
+[Package|NEED 2.0|Files In Project]
+D:\Martel\VB2\SisAdmi.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\ieframe.dll=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTES.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\DATGDES.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\DATLSES.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\MSMSKES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\vsflex8.ocx=Yes
+C:\WINDOWS\system32\vsflex8l.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2ES.DLL=Yes
+C:\SRI\ANEXO_TRANSACCIONAL\Dlls\MSDBRPTR.DLL=No
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGES.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCES.DLL=Yes
+C:\WINDOWS\system32\vsprint8.ocx=Yes
+C:\WINDOWS\system32\vsrpt8.ocx=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Martel\VB2\VSReport\reportes.xml=Yes
+
+[Package|NEED 2.0|Configure Registry Files]
+Applicable=No
+
+[Package|NEED 2.0|Configure Remote Servers]
+Applicable=No
+
+[Package|NEED 2.0|Install Locations]
+D:\Martel\VB2\SisAdmi.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\ieframe.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATGDES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATLSES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMSKES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8l.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\SRI\ANEXO_TRANSACCIONAL\Dlls\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\vsprint8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsrpt8.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Martel\VB2\VSReport\reportes.xml=$(AppPath)\VSReport
+
+[Package|NEED 2.0|Configure Shared Files]
+Applicable=Yes
+D:\Martel\VB2\SisAdmi.exe=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Martel\VB2\VSReport\reportes.xml=No
+
+[Package|NEED 2.0|Distribution]
+Type=single
+Size=
+Title=NEED 2.0
+
+[Package|NEED 2.0|IconGroups]
+Group0=NEED - Enlace Digital
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|NEED 2.0|NEED - Enlace Digital]
+Icon1=SisAdmi.exe
+Title1=NEED 2.0
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|NEED 2.0|Package]
+PackageFolder=D:\Instaladores\Martel
+ProjectFolder=D:\Martel\VB2
+ServerSideCab=
+File1=D:\Instaladores\Martel\setup.exe
+File2=D:\Instaladores\Martel\Setup.Lst
+File3=D:\Instaladores\Martel\SisAdmi.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|NEED 2.0 MartelCablecom|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Instaladores\Martel
+
+[Package|NEED 2.0 MartelCablecom|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NEED 2.0 MartelCablecom|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NEED 2.0 MartelCablecom|Files Found]
+
+[Package|NEED 2.0 MartelCablecom|Files Released]
+
+[Package|NEED 2.0 MartelCablecom|Missing Dependency Information]
+C:\WINDOWS\system32\vsrpt8.ocx=
+C:\WINDOWS\system32\vsprint8.ocx=
+C:\SRI\ANEXO_TRANSACCIONAL\Dlls\MSDBRPTR.DLL=
+C:\WINDOWS\system32\vsflex8l.ocx=
+C:\WINDOWS\system32\vsflex8.ocx=
+C:\WINDOWS\system32\ieframe.dll=
+
+[Package|NEED 2.0 MartelCablecom|Out-of-Date Dependency Information]
+
+[Package|NEED 2.0 MartelCablecom|Files Added]
+d:\Martel\vb2\vsreport\reportes.xml=
+
+[Package|NEED 2.0 MartelCablecom|Files Removed]
+c:\sri\anexo_transaccional\dlls\msdbrptr.dll=
+d:\Martel\vb2\vsreport\rptasientopic1.gif=
+
+[Package|NEED 2.0 MartelCablecom|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\ieframe.dll=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTES.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\DATGDES.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\DATLSES.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\MSMSKES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\vsflex8.ocx=Yes
+C:\WINDOWS\system32\vsflex8l.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2ES.DLL=Yes
+C:\SRI\ANEXO_TRANSACCIONAL\Dlls\MSDBRPTR.DLL=No
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGES.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCES.DLL=Yes
+C:\WINDOWS\system32\vsprint8.ocx=Yes
+C:\WINDOWS\system32\vsrpt8.ocx=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Martel\VB2\VSReport\reportes.xml=Yes
+D:\Martel\VB2\SisAdmi.exe=Yes
+
+[Package|NEED 2.0 MartelCablecom|Configure Registry Files]
+Applicable=No
+
+[Package|NEED 2.0 MartelCablecom|Configure Remote Servers]
+Applicable=No
+
+[Package|NEED 2.0 MartelCablecom|Install Locations]
+D:\Martel\VB2\SisAdmi.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\ieframe.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATGDES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATLSES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMSKES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsflex8l.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\SRI\ANEXO_TRANSACCIONAL\Dlls\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\vsprint8.ocx=$(WinSysPath)
+C:\WINDOWS\system32\vsrpt8.ocx=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Martel\VB2\VSReport\reportes.xml=$(AppPath)\VSReport
+D:\Martel\VB2\SisAdmi.exe=$(AppPath)
+
+[Package|NEED 2.0 MartelCablecom|Configure Shared Files]
+Applicable=Yes
+D:\MArtel\VB2\SisAdmi.exe=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Martel\VB2\VSReport\reportes.xml=No
+D:\Martel\VB2\SisAdmi.exe=No
+
+[Package|NEED 2.0 MartelCablecom|Distribution]
+Type=single
+Size=
+Title=NEED 2.0
+
+[Package|NEED 2.0 MartelCablecom|Package]
+PackageFolder=D:\Instaladores\Martel
+ProjectFolder=D:\Martel\VB2
+ServerSideCab=
+File1=D:\Instaladores\Martel\setup.exe
+File2=D:\Instaladores\Martel\Setup.Lst
+File3=D:\Instaladores\Martel\SisAdmi.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|NEED 2.0 MartelCablecom|IconGroups]
+Group0=NEED - Enlace Digital
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|NEED 2.0 MartelCablecom|NEED - Enlace Digital]
+Icon1=SisAdmi.exe
+Title1=NEED 2.0
+StartIn1=$(AppPath)
+Key1=Icon3

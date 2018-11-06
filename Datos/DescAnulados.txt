@@ -1,0 +1,7 @@
+Descripción del campo	Nombre del campo xml	Longitud Mínima	Longitud Máxima	Tipo de Campo	Formato	Requisito	Formato	Mascara	TablaCampo	DependeCampo	Verifica/Acción	Orden	OrdenColumna
+Código tipo de Comprobante anulado	tipoComprobante	1	2	Caracter	Tabla 2	obligatorio	00	00	0			1	1
+No. de serie del comprobante  - establecimiento	establecimiento	3	3	Caracter	enteros	obligatorio	000					2	2
+No. de serie del comprobante  - punto de emisión	puntoEmision	3	3	Caracter	enteros	obligatorio	000					3	3
+No. secuencial del comprobante  - Desde	secuencialInicio	1	9	Caracter	enteros	obligatorio	######0					4	4
+No. secuencial del comprobante  - Hasta	secuencialFin	1	9	Caracter	enteros	obligatorio	######0					5	5
+No. de autorización del comprobante 	autorizacion	3	37	Caracter	enteros	obligatorio	#######000					6	6

@@ -1,0 +1,4 @@
+Descripción del campo	Nombre del campo xml	Longitud Mínima	Longitud Máxima	Tipo de Campo	Formato	Requisito	Formato	Mascara	TablaCampo	DependeCampo	Verifica/Acción	Orden	OrdenColumna
+Código del Establecimiento (conforme inscripción en el RUC)	codEstab	3	3	Caracter	enteros	obligatorio	000					1	1
+Ventas generadas en el establecimiento	ventasEstab	4	15	Numérico	2 decimales	obligatorio	########0.00					2	2
+IVA Compensado en el establecimiento por ventas  Ley de Solidaridad	ivaComp	4	15	Numérico	2 decimales	obligatorio	########0.00					3	3

@@ -1,0 +1,3 @@
+Código	Secuencial de Tipo Import/Export
+1	Bienes
+2	Servicios

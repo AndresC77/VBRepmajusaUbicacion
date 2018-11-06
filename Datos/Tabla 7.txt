@@ -1,0 +1,6 @@
+Código	Nombre de la Emisora de Tarjeta
+01	DINERS CLUB
+02	VISA
+03	MASTERCARD
+04	AMERICAN EXPRESS
+05	OTRAS

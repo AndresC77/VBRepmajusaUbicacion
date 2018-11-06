@@ -1,0 +1,57 @@
+CODIGO 2006 en adelante	Concepto Retención en la Fuente de Impuesto a la Renta (AIR)	% RETENCION	FECHA_INICIO_PORCENTAJE	FECHA_FIN_PORCENTAJE	Ingresa Porcentaje
+303	"Honorarios, comisiones y dietas a personas naturales"	 8     	2003-04-01		N
+303	"Honorarios, comisiones y dietas a personas naturales"	 5     	2003-02-01	2003-03-31	N
+304	Remuneracion a otros trabajadores autonomos	 1     	2003-04-01		N
+305	Honorarios a extranjeros por servicios ocasionales	 25     	2003-04-01		N
+306	Por compras locales de materia prima	 1     	2003-04-01		N
+307	Por compras locales de bienes no producidos por la sociedad	 1     	2003-04-01		N
+308	Por compras locales de materia prima no sujeta a retención 	 -     	2003-04-01		N
+309	Por suministros y materiales	 1     	2003-04-01		N
+310	Por repuestos y herramientas	 1     	2003-04-01		N
+311	Por lubricantes	 1     	2003-04-01		N
+312	Por activos fijos	 1     	2003-04-01		N
+313	Por concepto de servicio de transporte privado de pasajeros o servicio publico o privado de carga	 1     	2003-04-01		N
+314	"Por regalias, derechos de autor, marcas, patentes y similares"	 8     	2003-04-01		N
+315	"Por remuneraciones a deportistas, entrenadores, cuerpo tecnico, arbitros y artistas residentes "	 5     	2003-04-01		N
+316	Por pagos realizados a notarios y registradores de la propiedad o mercantiles	 8     	2003-04-01		N
+317	Por comisiones pagadas a sociedades 	 1     	2003-04-01		N
+318	Por promocion y publicidad	 1     	2003-04-01		N
+319	Por arrendamiento mercantil local	 1     	2003-04-01		N
+320	Por arrendamiento de bienes inmuebles de propiedad de personas naturales	 5     	2003-04-01		N
+321	Por arrendamiento de bienes inmuebles a sociedades	 5     	2003-04-01		N
+322	Por seguros y reaseguros (10% del valor de las primas facturadas)	 1     	2003-04-01		N
+323	Por rendimientos financieros (no aplica para ifi's)	 5     	2003-04-01		N
+323A	Por RF: depósitos Cta Corriente	 5     	2003-04-01		N
+323B1	Por RF:  depósitos Cta Ahorros Sociedades	 5     	2003-04-01		N
+323B2	Por RF:  depósitos Cta Ahorros Persona Natural	 -     	2003-04-01		N
+323C	Por rendimientos financieros:  depósitos en cuentas corrientes exentas	 -     	2003-04-01		N
+323D	"Por rendimientos financieros: compra, cancelación o redención de mini bem´s y bem´s"	 5     	2003-04-01		N
+323E	Por RF: depósito a plazo	 5     	2003-04-01		N
+323F	Por rendimientos financieros: operaciones de reporto - repos	 5     	2003-04-01		N
+323G	Por RF: inversiones (captaciones)	 5     	2003-04-01		N
+323H	Por RF: obligaciones	 5     	2003-04-01		N
+323I	Por RF: bonos convertible en acciones	 5     	2003-04-01		N
+323J	Por RF: bonos de organismos y gobiernos extranjeros	 5     	2003-04-01		N
+324	Por pagos o creditos en cuenta realizados por empresas emisoras de tarjetas de credito	 1     	2003-04-01		N
+325	"Por loterias, rifas, apuestas y similares"	 15     	2003-04-01		N
+326	Por intereses y comisiones en operaciones de credito entre las inst. Del sistema financiero	 1     	2003-04-01		N
+327	Por venta de combustibles a comercializadoras 	 0.20     	2003-04-01		N
+328	Por venta de combustibles a distribuidores	 0.30     	2003-04-01		N
+329	Por otros servicios	 1     	2003-04-01		N
+330	Por pagos de dividendos anticipados	 25     	2003-04-01		N
+331	"Por agua, energía, luz y telecomunicaciones"	 1     	2003-04-01		N
+332	Otras compras de bienes y servicios no sujetas a retención	 -     	2003-04-01		N
+333	Convenio de Débito o Recaudación	 -     	2003-04-01		S
+401	Con convenio de doble tributacion	 -     	2003-04-01		S
+403	Sin convenio de doble tributación intereses y costos financideros por financiamiento de proveedores externos (en la cuantia que excede a la tasa máxima)	 25     	2003-04-01		N
+405	Sin convenio de doble tributación intereses de créditos externos registrados en el bce (en la cuantia que excede a la tasa máxima)	 25     	2003-04-01		N
+407	Sin convenio de doble tributación intereses de créditos externos no registrados en el bce	 25     	2003-04-01		N
+409	Sin convenio de doble tributación comisiones por exportaciones	 25     	2003-04-01		N
+411	Sin convenio de doble tributación comisiones pagadas para la promocion del turismo receptivo	 25     	2003-04-01		N
+413	Sin convenio de doble tributación el 4% de las primas de cesión o reaseguros contratados con empresas que no tengan establecimiento o representación permanente en el ecuador	 25     	2003-04-01		N
+415	Sin convenio de doble tributación el 10% de los pagos efectuados por las agencias internacionales de prensa registradas en la secretaría de comunicación del estado	 25     	2003-04-01		N
+417	Sin convenio de doble tributación el 10% del valor de los contratos de fletamento de naves para empresas de transporte aéreo o marítimo internacional	 25     	2003-04-01		N
+419	Sin convenio de doble tributación el 15% de los pagos efectuados por productoras y distribuidoras de cintas cinematográficas y de televisión por sin concepto de arrendamiento de cintas y videocintas	 25     	2003-04-01		N
+421	Sin convenio de doble tributación por otros conceptos	 25     	2003-04-01		N
+423	Arrendamiento mercantil internacional por pago de intereses (cuando supera la tasa autorizada por el bce)	 25     	2003-04-01		N
+425	Arrendamiento mercantil internacional cuando no se ejerce la opcion de compra (sobre la depreciación acumulada)	 25     	2003-04-01		N

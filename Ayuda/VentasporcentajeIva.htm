@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Ayuda</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif ">
+<h1>Código Porcentaje de IVA</h1>
+<p>Este campo consta de 1 caracter numérico y corresponde al porcentaje de IVA vigente a la fecha de emisión del comprobante, este campo es obligatorio y debe ser registrado según la tabla 4 Porcentajes de IVA.<br>
+Vigencia de Porcentajes de IVA:<br>
+- IVA 10 % para fechas de emisión anteriores al 01 de enero del 2000<br>
+- IVA 12 % para fechas de emisión del 01 enero del 2000 al 31 de mayo del 2001<br>
+- IVA 14 % para fechas de emisión del 01 de junio del 2001 y 31 de agosto del 2001<br>
+- IVA 12 % para fechas de emisión posteriores al 31 de agosto del 2001<br>
+<br>
+Consideraciones entre Bases Imponibles de IVA<br>
+Se debe considerar que el Campo Base Imponible Gravada y el campo Base Imponible Tarifa 0% no pueden tener a la vez registrado 0.00, es decir por lo menos una Base Imponible debe ser mayor a 0.00
+</p>
+<table align="center" cellspacing="0" cellpadding="3" width="600" border="1">
+	<tr>
+		<th colspan="4">Tabla 4: % IVA</th>
+	</tr>
+	<tr align="center">
+		<th>C&oacute;digo </th>
+		<th>% IVA </th>
+		<th>Fecha Inicio </th>
+		<th>Fecha Fin </th>
+	</tr>
+	<tr align="center">
+		<td>1 </td>
+		<td>10 </td>
+		<td>1990-01-01 </td>
+		<td>1999-12-31 </td>
+	</tr>
+	<tr align="center">
+		<td>2 </td>
+		<td>12 </td>
+		<td>2000-01-01 </td>
+		<td>2001-05-31 </td>
+	</tr>
+	<tr align="center">
+		<td>2 </td>
+		<td>12 </td>
+		<td>2001-09-01 </td>
+		<td>vacio </td>
+	</tr>
+	<tr align="center">
+		<td>3 </td>
+		<td>14 </td>
+		<td>2001-06-01 </td>
+		<td>2001-08-31 </td>
+	</tr>
+</table>
+<p style="color:#999999;font-size:11px " > Información tomada de: FICHA TÉCNICA DE ANEXO TRANSACCIONAL (SRI) Ficha_Tecnica_AT_descripcion_de_campos.doc </p>
+</body>
+</html>

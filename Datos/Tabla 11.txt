@@ -1,0 +1,6 @@
+Código	Tipo de fideicomiso	Código Procentaje Retención	FECHA_INICIO	FECHA_FIN
+1	Fondos De Inversión	5	2000-01-01	
+2	Fideicomisos Mercantiles De Administración	5	2000-01-01	
+3	Fideicomisos Mercantiles De Inversión	5	2000-01-01	
+4	Fideicomisos Mercantiles Inmobiliarios	5	2000-01-01	
+5	Fideicomisos Mercantiles De Garantías	5	2000-01-01	
