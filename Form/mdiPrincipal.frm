@@ -48,14 +48,14 @@ Begin VB.MDIForm mdiPrincipal
             Style           =   5
             Alignment       =   1
             AutoSize        =   2
-            TextSave        =   "9:25"
+            TextSave        =   "11:55"
             Object.ToolTipText     =   "Hora"
          EndProperty
          BeginProperty Panel6 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
             Style           =   6
             Alignment       =   1
             AutoSize        =   2
-            TextSave        =   "2018-10-25"
+            TextSave        =   "2018-11-08"
             Object.ToolTipText     =   "Fecha"
          EndProperty
       EndProperty

@@ -1,7 +1,7 @@
 servidorbddmaster = 172.16.11.240
 servidorbddlocal = 172.16.11.240
-bdd = neednew
-servidorweb = 172.16.11.240/neednew
+bdd = testneed
+servidorweb = 172.16.11.240/testneed
 ptofactura = 001
 autorfactura = 1104311569
 caducafactura = 01/2008

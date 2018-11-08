@@ -5,7 +5,7 @@ Begin VB.Form frmPreProducto
    BackColor       =   &H00DDDDDD&
    BorderStyle     =   1  'Fixed Single
    Caption         =   "Pre Productos"
-   ClientHeight    =   8415
+   ClientHeight    =   8160
    ClientLeft      =   45
    ClientTop       =   330
    ClientWidth     =   14280
@@ -14,8 +14,16 @@ Begin VB.Form frmPreProducto
    MaxButton       =   0   'False
    MDIChild        =   -1  'True
    MinButton       =   0   'False
-   ScaleHeight     =   8415
+   ScaleHeight     =   8160
    ScaleWidth      =   14280
+   Begin VB.CommandButton cmdFichaTecnica 
+      Caption         =   "&Ficha Tecnica"
+      Height          =   360
+      Left            =   120
+      TabIndex        =   29
+      Top             =   7560
+      Width           =   1700
+   End
    Begin VB.CommandButton cmdGenerarEAN 
       Caption         =   "&Generar EAN"
       Height          =   360
@@ -696,6 +704,12 @@ Private Sub cmdConsultarDetalle_Click()
     VSFGDet.ColComboList(4) = VSFGDet.BuildComboList(clsCon_Def.adorec_Def, "col_codigo,*col_nombre", "col_codigo")
 End Sub
 
+Private Sub cmdFichaTecnica_Click()
+    frmFichaTecnica.txtReferencia = VSFG.TextMatrix(VSFG.Row, 1)
+    frmFichaTecnica.txtNombre = VSFG.TextMatrix(VSFG.Row, 2)
+    frmFichaTecnica.Show
+End Sub
+
 Private Sub cmdGenerarEAN_Click()
     Dim iSum As Integer
     Dim iDigit As Integer
@@ -706,7 +720,7 @@ Private Sub cmdGenerarEAN_Click()
     
     Dim i As Long
     
-    Dim fila As Long
+    Dim Fila As Long
     strSql = " SELECT tal_codigo as ta,tal_codigo,col_codigo as ca,col_codigo,prd_codigo," & _
              " pre_pro_fechamod,pre_pro_usumod, '0' as modi " & _
              " FROM preproducto_producto" & _
