@@ -1,15 +1,14 @@
 VERSION 5.00
 Object = "{1C0489F8-9EFD-423D-887A-315387F18C8F}#1.0#0"; "vsflex8l.ocx"
-Object = "{F0D2F211-CCB0-11D0-A316-00AA00688B10}#1.0#0"; "MSDATLST.OCX"
-Begin VB.Form frmFichaTecnica 
+Begin VB.Form frmVerFichaTecnica 
    BackColor       =   &H00DDDDDD&
    BorderStyle     =   1  'Fixed Single
-   Caption         =   "Ficha Tecnica"
+   Caption         =   "Ver Ficha Técnica"
    ClientHeight    =   4980
    ClientLeft      =   45
    ClientTop       =   330
    ClientWidth     =   6630
-   Icon            =   "frmFichaTecnica.frx":0000
+   Icon            =   "frmVerFichaTecnica.frx":0000
    KeyPreview      =   -1  'True
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
@@ -17,6 +16,14 @@ Begin VB.Form frmFichaTecnica
    MinButton       =   0   'False
    ScaleHeight     =   4980
    ScaleWidth      =   6630
+   Begin VB.ComboBox cbVersion 
+      Height          =   315
+      Left            =   5400
+      TabIndex        =   12
+      Text            =   "Combo1"
+      Top             =   240
+      Width           =   1095
+   End
    Begin VB.TextBox txtObservacion 
       BeginProperty DataFormat 
          Type            =   1
@@ -30,7 +37,7 @@ Begin VB.Form frmFichaTecnica
       Height          =   765
       Left            =   1200
       MultiLine       =   -1  'True
-      TabIndex        =   10
+      TabIndex        =   9
       Top             =   1080
       Width           =   5295
    End
@@ -47,26 +54,8 @@ Begin VB.Form frmFichaTecnica
       EndProperty
       Height          =   285
       Left            =   5400
-      TabIndex        =   8
+      TabIndex        =   7
       Top             =   600
-      Width           =   1095
-   End
-   Begin VB.TextBox txtVersion 
-      Alignment       =   1  'Right Justify
-      BeginProperty DataFormat 
-         Type            =   1
-         Format          =   "#,##0.00"
-         HaveTrueFalseNull=   0
-         FirstDayOfWeek  =   0
-         FirstWeekOfYear =   0
-         LCID            =   12298
-         SubFormatType   =   1
-      EndProperty
-      Height          =   285
-      Left            =   5400
-      Locked          =   -1  'True
-      TabIndex        =   6
-      Top             =   240
       Width           =   1095
    End
    Begin VB.TextBox txtNombre 
@@ -103,9 +92,8 @@ Begin VB.Form frmFichaTecnica
       Top             =   240
       Width           =   1095
    End
-   Begin VB.CommandButton cmbAceptar 
-      Caption         =   "&Aceptar"
-      Enabled         =   0   'False
+   Begin VB.CommandButton cmbNuevo 
+      Caption         =   "&Nuevo"
       Height          =   360
       Left            =   1425
       TabIndex        =   1
@@ -120,33 +108,10 @@ Begin VB.Form frmFichaTecnica
       Top             =   4440
       Width           =   1700
    End
-   Begin MSDataListLib.DataCombo cmbProducto 
-      Height          =   315
-      Left            =   2040
-      TabIndex        =   12
-      Top             =   1920
-      Visible         =   0   'False
-      Width           =   3855
-      _ExtentX        =   6800
-      _ExtentY        =   556
-      _Version        =   393216
-      MatchEntry      =   -1  'True
-      Style           =   2
-      Text            =   ""
-      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-         Name            =   "MS Sans Serif"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-   End
    Begin VSFlex8LCtl.VSFlexGrid VSFG 
       Height          =   2250
       Left            =   120
-      TabIndex        =   13
+      TabIndex        =   11
       Top             =   1920
       Width           =   6375
       _cx             =   11245
@@ -195,7 +160,7 @@ Begin VB.Form frmFichaTecnica
       ColWidthMin     =   0
       ColWidthMax     =   0
       ExtendLastCol   =   0   'False
-      FormatString    =   $"frmFichaTecnica.frx":030A
+      FormatString    =   $"frmVerFichaTecnica.frx":030A
       ScrollTrack     =   0   'False
       ScrollBars      =   3
       ScrollTips      =   0   'False
@@ -244,7 +209,7 @@ Begin VB.Form frmFichaTecnica
       ForeColor       =   &H00000080&
       Height          =   195
       Left            =   240
-      TabIndex        =   11
+      TabIndex        =   10
       Top             =   1080
       Width           =   945
    End
@@ -255,7 +220,7 @@ Begin VB.Form frmFichaTecnica
       ForeColor       =   &H00000080&
       Height          =   195
       Left            =   4440
-      TabIndex        =   9
+      TabIndex        =   8
       Top             =   600
       Width           =   825
    End
@@ -266,7 +231,7 @@ Begin VB.Form frmFichaTecnica
       ForeColor       =   &H00000080&
       Height          =   195
       Left            =   4440
-      TabIndex        =   7
+      TabIndex        =   6
       Top             =   240
       Width           =   570
    End
@@ -293,7 +258,7 @@ Begin VB.Form frmFichaTecnica
       Width           =   825
    End
 End
-Attribute VB_Name = "frmFichaTecnica"
+Attribute VB_Name = "frmVerFichaTecnica"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
@@ -357,18 +322,32 @@ Private Sub cmbProducto_Validate(Cancel As Boolean)
 
 End Sub
 
+Private Sub cmbNuevo_Click()
+    frmFichaTecnica.txtReferencia = VSFG.TextMatrix(VSFG.Row, 1)
+    frmFichaTecnica.txtNombre = VSFG.TextMatrix(VSFG.Row, 2)
+    
+    frmFichaTecnica.Show
+End Sub
+
 Private Sub Form_Activate()
 
-      
+     
+  ' clsConsu.Inicializar AdoConn, AdoConnMaster
+  ' clsConsu.Ejecutar ("select emp_codigo,pre_codigo,pre_fic_version,pre_fic_costo_servicios,pre_fic_obervacion from preproducto_ficha where emp_codigo = '" & strEmpresa & "' order by pre_fic_obervacion")
+  ' Set cbVersion.RowSource = clsConsu.adorec_Def.DataSource
+  ' cbVersion.ListField = "pre_fic_version" das
+  ' Exit Sub
                  
-    strSql = " SELECT COALESCE(MAX(pre_fic_version),1)+ 1 as n " & _
-             " FROM preproducto_ficha " & _
-             " WHERE emp_codigo='" & strEmpresa & "'" & _
-             " AND pre_codigo='" & txtReferencia.Text & "' "
-    
+    strSql = " SELECT COALESCE(MAX(pre_fic_version),1) as n " & _
+            " FROM preproducto_ficha " & _
+            " WHERE emp_codigo='" & strEmpresa & "'" & _
+            " AND pre_codigo='" & txtReferencia.Text & _
+            " AND pre_fic_servicios= '" & txtCostoServicio.Text & _
+            " AND pre_fic_observacion= '" & txtObservacion.Text & "' "
+                 
     clsCon_Def.Ejecutar strSql
     
-    txtVersion.Text = clsCon_Def.adorec_Def("n")
+    cbVersion.Text = clsCon_Def.adorec_Def("n")
 End Sub
 
 Private Sub Form_Unload(Cancel As Integer)

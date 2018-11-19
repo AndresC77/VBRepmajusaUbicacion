@@ -9,7 +9,7 @@ Begin VB.Form frmFichaTecnica
    ClientLeft      =   45
    ClientTop       =   330
    ClientWidth     =   6630
-   Icon            =   "frmFichaTecnica.frx":0000
+   Icon            =   "frmVerTecnica.frx":0000
    KeyPreview      =   -1  'True
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
@@ -195,7 +195,7 @@ Begin VB.Form frmFichaTecnica
       ColWidthMin     =   0
       ColWidthMax     =   0
       ExtendLastCol   =   0   'False
-      FormatString    =   $"frmFichaTecnica.frx":030A
+      FormatString    =   $"frmVerTecnica.frx":030A
       ScrollTrack     =   0   'False
       ScrollBars      =   3
       ScrollTips      =   0   'False

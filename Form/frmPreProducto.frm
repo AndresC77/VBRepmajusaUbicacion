@@ -17,7 +17,7 @@ Begin VB.Form frmPreProducto
    ScaleHeight     =   8160
    ScaleWidth      =   14280
    Begin VB.CommandButton cmdFichaTecnica 
-      Caption         =   "&Ficha Tecnica"
+      Caption         =   "&Ver Ficha Técnica"
       Height          =   360
       Left            =   120
       TabIndex        =   29
@@ -705,9 +705,12 @@ Private Sub cmdConsultarDetalle_Click()
 End Sub
 
 Private Sub cmdFichaTecnica_Click()
-    frmFichaTecnica.txtReferencia = VSFG.TextMatrix(VSFG.Row, 1)
-    frmFichaTecnica.txtNombre = VSFG.TextMatrix(VSFG.Row, 2)
-    frmFichaTecnica.Show
+    frmVerFichaTecnica.txtReferencia = VSFG.TextMatrix(VSFG.Row, 1)
+    frmVerFichaTecnica.txtNombre = VSFG.TextMatrix(VSFG.Row, 2)
+   'frmVerFichaTecnica.txtCostoServicio =
+   'frmVerFichaTecnica.txtObservacion   =
+    
+    frmVerFichaTecnica.Show
 End Sub
 
 Private Sub cmdGenerarEAN_Click()
